@@ -1,0 +1,6 @@
+let tareas = [
+
+
+]
+
+export { tareas };

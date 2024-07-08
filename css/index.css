@@ -1,0 +1,129 @@
+.root {
+    width: 150rem;
+    margin: auto;
+    margin-top: 10rem;
+    margin-right: 20rem;
+    display: flex;
+    flex-direction: column;
+    position: end;
+    gap: 10px;
+    align-items: center;
+}
+.div_tareas {
+    width: 90%;
+    height: 20rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.botones {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+.btn_mas {
+    width: 15rem;
+    height: 5rem;
+    background-color: rgb(73, 179, 250);
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid black;
+    
+}
+
+.lista_tareas {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+/* Estilos del formulario */
+.formulario {
+    width: 25rem;
+    height: 25rem;
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: none;
+}
+.div_formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.div_controles {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.btn_cerrar {
+    padding: 0.5rem;
+    width: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    background-color: rgb(73, 179, 250);
+    border-radius: 100%;
+}
+
+.btn_cerrar:hover {
+    color: #b00;
+}
+
+.btn-crear {
+    width: 100%;
+    max-width: 200px;
+    background-color: rgb(73, 179, 250);
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem 0 0;
+    align-self: center;
+    text-align: center;
+}
+.div_tareas{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn-crear:hover {
+    background-color: rgb(73, 179, 250);
+}
+
+/* ---------- */
+.ocultar {
+    display: none;
+}
+.activar_b {
+    display: block;
+}
+.activar_f {
+    display: flex;
+}
+.activar_g {
+    display: grid;
+}
