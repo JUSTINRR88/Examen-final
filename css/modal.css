@@ -27,7 +27,6 @@
 .btn_asignacion{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 3rem;
     height: 3rem;
     border: 2px solid black;
@@ -36,4 +35,55 @@
 
 .btn_asignacion:hover{
     background-color: gray;
+}
+.estado{
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.estado p{
+    width: 10rem;
+    height: 5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilo para las ventanas modales */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 20;
+    left: 30rem;
+    top: 30%;
+    width: 20rem;
+    height: 20rem;
+    overflow: auto;
+
+}
+#asignacion{
+    width: 10rem;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 15rem;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
